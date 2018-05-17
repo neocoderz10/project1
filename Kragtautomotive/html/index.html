@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta name="description" content="">
+		<meta name="author" content="">
+		<title>INDEX</title>
+		<!-- CSS -->
+		<link href="css/fonts.css" rel="stylesheet">
+		<link href="fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/common.css" rel="stylesheet">
+		<link href="css/style.css" rel="stylesheet">
+		<link href="css/responsive.css" rel="stylesheet">
+		<link href="css/swiper.css" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" href="css/demo.css" />
+		<link type="text/css" rel="stylesheet" href="css/jquery.mmenu.all.css" />
+		<!-- JavaScript -->
+		<script src="js/jquery1.js"></script>
+		<script src="bootstrap/js/bootstrap.bundle.min.js"></script>
+		<script type="text/javascript" src="js/jquery.mmenu.all.min.js"></script>
+		<script src="js/swiper.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('nav#menu').mmenu();
+			});
+			 $(window).scroll(function(){
+			 if($(window).scrollTop() > 100)
+			 {
+			 $('.navbar').addClass('active');
+			 }
+			 else
+			 {
+			 $('.navbar').removeClass('active');
+			 }
+			 });
+        </script>
+	</head>
+	<body>
+		<div id="page">
+		<!-- Navigation -->
+		<div class="header dblock">
+			<a href="#menu"></a>
+			<img src="images/logo.png" class="res_logo_styl"  border="0" alt="">
+		</div>
+		<nav id="menu" >
+			<ul>
+				<li class="active"><a href="#">AANBOD</a></li>
+				<li><a href="#">ZOEKOPDRACHT</a></li>
+				<li><a href="#contact">PRODUCTEN</a></li>
+				<li><a href="#contact">SERVICES</a></li>
+				<li><a href="#contact">OVER ONS</a></li>
+				<li><a href="#contact">CONTACT</a></li>
+			</ul>
+		</nav>
+		<nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="main_menu">
+        	<a class="navbar-brand" href="#"><img src="images/logo.png" border="0" alt=""></a>
+            <div class="container">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-left">
+						<li class="nav-item active">
+							<a class="nav-link" href="#">Collectie
+							<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Zoekopdracht</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Diensten</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#"> Over ons</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Contact</a>
+						</li>
+						
+					</ul>
+                    <ul class="right_bar">
+                    	<li><span style="margin-right:15px;"><img src="images/whtsaap.png"/></span>06 53 86 80 27</li>
+                        <li><span style="margin-right:15px;"><img src="images/phn.png"/></span>0493 323831</li>
+                        <li><span style="margin-right:15px;"><img src="images/mail.png"/></span>info@kragtautomotive.nl</li>
+                        <li class="social_icons">
+                        	<img src="images/in.png"/>
+                            <img src="images/ins.png"/>
+                            <img src="images/fb.png"/>
+                            <img src="images/twiter.png"/>
+                        </li>
+                    </ul>
+				</div>
+			</div>
+		</nav>
+        <section class="slider_sec">
+        	<div class="swiper-container home_main_slider">
+            	<div class="swiper-wrapper">
+                    <div class="swiper-slide slide_height" style="background:url(images/slider1.png) no-repeat center center/cover">
+                        <div class="slider_content">
+                            <div class="slider_txt">
+                                <div class="slider_txt_content">
+                                    <h1>Kragt Automotive</h1>
+                                   <p>Drive your dream</p>
+                                </div>
+                                <div class="scroll_dwn">
+                                    <h6>Leer ons kennen</h6>
+                                    <div class='icon-scroll'><div/>
+                                   <div class="drop_img"><img src="images/drop.png"/></div>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                         </div>
+                     </div>
+                    <div class="swiper-slide slide_height" style="background:url(images/slider2.png) no-repeat center center/cover">
+                        <div class="slider_content">
+                            <div class="slider_txt">
+                                <div class="slider_txt_content">
+                                    <h1>Kragt Automotive</h1>
+                                   <p>Drive your dream</p>
+                                 </div>
+                                <div class="scroll_dwn">
+                                    <h6>Leer ons kennen</h6>
+                                    <div class='icon-scroll'><div/>
+                                    <div class="drop_img"><img src="images/drop.png"/></div>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         <script>
+            var swiper = new Swiper('.home_main_slider', {
+            spaceBetween:0,
+			//pagination: '.swiper-pagination',
+            centeredSlides: true,
+            loop: true,
+            autoplay: 3000,
+            effect: 'fade',
+            autoplayDisableOnInteraction: false
+            });  
+         </script>
+        </section>
+        <section class="scrolling_txt_blk">
+        	<div class="scroll_txt_bg" style="background:url(images/scroll_txt_bg.jpg) no-repeat center center/cover">
+            	<div class="scroll_txt_height">
+                	<div class="scroll_txt_details">
+                    	<div class="container">
+                            <div class="row">
+                                <div class="col-md-6 blank_box"></div>
+                                <div class="col-md-6 col-12">
+                                    <div class="swiper-container scroll_text_container" id="scroll_text_container">
+                                     <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                           <div class="slider_txt_content2">
+                                           		<h3>Onze collectie</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeiculus mus.</p>
+                                                <a href="#" class="link">Bekijk collectie <span style="margin-left:20px;"><img src="images/link_arrow.png"/></span></a>
+                                                <div class="clearfix"></div>
+                                           </div>
+                                         </div>
+                                        <div class="swiper-slide">
+                                           <div class="slider_txt_content2">
+                                           		<h3>Onze collectie</h3>
+                                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeiculus mus.</p>
+                                                <a href="link" class="link">Bekijk collectie <span style="margin-left:20px;"><img src="images/link_arrow.png"/></span></a>
+                                                <div class="clearfix"></div>
+                                           </div>
+                                         </div>
+                                     </div>
+                                    </div>
+                                     <!-- Add Pagination -->
+                                    <div class="swiper-pagination swiper-pagination1"></div>
+                                    <!-- Add Arrows -->
+                                    <div class="swiper-button-next common_btn swiper-button-next2"><img src="images/nxt_wht.png"/></div>
+                                    <div class="swiper-button-prev common_btn swiper-button-prev2"><img src="images/prv_wht.png"/></div> 
+                                </div>
+                                <div class="clearfix"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <script>
+            var swiper = new Swiper('#scroll_text_container', {
+            spaceBetween:0,
+			pagination: '.swiper-pagination1',
+			paginationClickable: true,
+			nextButton: '.swiper-button-next2',
+            prevButton: '.swiper-button-prev2',
+            //centeredSlides: true,
+            loop: false,
+            autoplay: 6000,
+            effect: 'slide',
+            //autoplayDisableOnInteraction: false
+            });  
+         </script>
+        </section>
+        <section class="product_slider_area">
+			<div class="container">
+            	<div class="product_slider">
+				<div class="swiper-container" id="product_slider">
+					<div class="swiper-wrapper">
+						<div class="swiper-slide">
+							<div class="products">
+								<div class="product_img">
+									<img src="images/product_slider1.jpg" style="max-width:100%"/>
+                                    <div class="product_dtls">
+                                	<table>
+                                    	<tr>
+                                        	<td>BMW 520d - 23.456 km - &euro; 33.958</td>
+                                            <td><a href="link" class="link">Bekijk collectie <span style="margin-left:20px;"><img src="images/link_arrow.png"/></span></a></td>
+                                        </tr>
+                                    </table>
+								</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="products">
+								<div class="product_img">
+									<img src="images/product_slider1.jpg" style="max-width:100%"/>
+                                    <div class="product_dtls">
+                                	<table>
+                                    	<tr>
+                                        	<td>BMW 520d - 23.456 km - &euro; 33.958</td>
+                                            <td><a href="link" class="link">Bekijk collectie <span style="margin-left:20px;"><img src="images/link_arrow.png"/></span></a></td>
+                                        </tr>
+                                    </table>
+								</div>
+								</div>
+								
+							</div>
+						</div>
+                        <div class="swiper-slide">
+							<div class="products">
+								<div class="product_img">
+									<img src="images/product_slider1.jpg" style="max-width:100%"/>
+                                    <div class="product_dtls">
+                                	<table>
+                                    	<tr>
+                                        	<td>BMW 520d - 23.456 km - &euro; 33.958</td>
+                                            <td><a href="link" class="link">Bekijk collectie <span style="margin-left:20px;"><img src="images/link_arrow.png"/></span></a></td>
+                                        </tr>
+                                    </table>
+								</div>
+								</div>
+								
+							</div>
+						</div>
+						<div class="swiper-slide">
+							<div class="products">
+								<div class="product_img">
+									<img src="images/product_slider1.jpg" style="max-width:100%"/>
+                                    <div class="product_dtls">
+                                	<table>
+                                    	<tr>
+                                        	<td>BMW 520d - 23.456 km - &euro; 33.958</td>
+                                            <td><a href="link" class="link">Bekijk collectie <span style="margin-left:20px;"><img src="images/link_arrow.png"/></span></a></td>
+                                        </tr>
+                                    </table>
+								</div>
+								</div>
+								
+							</div>
+						</div>
+					</div>
+				</div>
+                <!-- Add Arrows -->
+                <div class="swiper-button-next common_btn swiper-button-next3"><img src="images/nxt_blk.png"/></div>
+                <div class="swiper-button-prev common_btn swiper-button-prev3"><img src="images/prv_blk.png"/></div>
+				<script>
+					var swiper = new Swiper('#product_slider', {
+					  slidesPerView: 2,
+					  nextButton: '.swiper-button-next3',
+            		  prevButton: '.swiper-button-prev3',
+					  spaceBetween: 25,
+					   breakpoints: {
+						1024: {
+						  slidesPerView: 2,
+						  spaceBetween: 25,
+						},
+						768: {
+						  slidesPerView: 2,
+						  spaceBetween: 25,
+						},
+						640: {
+						  slidesPerView: 2,
+						  spaceBetween: 25,
+						},
+						575: {
+						  slidesPerView: 1,
+						  spaceBetween: 20,
+						},
+						320: {
+						  slidesPerView: 1,
+						  spaceBetween: 20,
+						}
+					  }
+					});
+					 
+				</script>
+			</div>
+            </div>
+		</section>
+        <section class="angel_area">
+        	<div class="section_top_area">
+            	<div class="first_angel common_angel_css" style="background:url(images/first_angel_image.jpg) no-repeat center center/cover">
+                	<div class="overlay"></div>
+                </div>
+            	<div class="second_angel common_angel_css" style="background:url(images/first_angel_image.jpg2.jpg) no-repeat center center/cover">
+                	<div class="second_image_link">
+                    	<h2>Diensten <span style="margin-left:20px;"><img src="images/link_arrow.png"/></span></h2>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+            <div class="section_btm_area">
+            	<div class="third_angel common_angel_css" style="background:url(images/third_image.jpg) no-repeat center center/cover">
+                	<div class="third_image_link">
+                    	<h2>Zoekopdracht <span style="margin-left:20px;"><img src="images/link_arrow.png"/></span></h2>
+                    </div>
+                    <div class="overlay"></div>
+                </div>
+                <div class="container">
+                	<div class="btm_section_left">
+                    	<div class="row custom_row">
+                        	<div class="col-md-6">
+                            	<div class="left_text">
+                                	<h3>Kragt Automotive</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aeiculus mus.</p>
+                                    <a href="#" class="link">Particulier & zakelijk <span style="margin-left:20px;"><img src="images/bluelink_arrow.png"/></span></a>
+                                </div>
+                            </div>
+                            <div class="col-md-6"></div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="expertise_sec">
+        	<div class="container">
+            	<div class="row">
+                	<div class="col-md-12">
+                    	<div class="expertise_heading">
+                        	<h3 class="text-center">Expertise</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibr sit amet, consectetuer adipiscing elit. Aeiculus mus.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                    	<div class="expertise_icon_area">
+                        	<ul>
+                            	<li>
+                                  <a href="#">
+                                    <img src="images/expertise1.jpg"/>
+                                    <img src="images/expertise1hover.jpg"/>
+                                   <div>Verkoop</div>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#">
+                                     <img src="images/expertise2.jpg"/>
+                                     <img src="images/expertise2hover.jpg"/>
+                                    <div>Service</div>
+                                  </a>
+                                </li>
+                                <li>
+                                  <a href="#">
+                                     <img src="images/expertise3.jpg"/>
+                                     <img src="images/expertise3hover.jpg"/>
+                                      <div>Onderhoud</div>
+                                  </a>
+                               </li>
+                               
+                            </ul>
+                            <div class="middl_line"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </section>
+        <section class="footer_area">
+        	<div class="map_area">
+            	<div id="map_canvas" class="google_map"></div>
+				<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqHRNCLFjL_2XipyaSdSswQUdoWPYU7Rs&callback=initialize"
+				   async defer></script>
+				<script type="text/javascript">
+				   <!--
+					/*google map*/
+					var locations = [
+					  ['<img src="image/user.png"  height="auto"  alt="" style="width:100% !important">', 'Acropolis Mall', 'USA', 'Gautam Talukdar', 'Go to office page in order to see all team members', '#', 'images/map.png'],
+				   
+					  
+					];
+					var geocoder;
+					var map;
+					//var bounds = new google.maps.LatLngBounds();
+					
+					function initialize() {
+					  map = new google.maps.Map(
+						document.getElementById("map_canvas"), {
+						  center: new google.maps.LatLng(22.5726, 88.3639),
+						  zoom: 10,
+						  mapTypeId: google.maps.MapTypeId.ROADMAP
+						});
+					  geocoder = new google.maps.Geocoder();
+				   
+					  for (i = 0; i < locations.length; i++) {
+						geocodeAddress(locations, i);
+					  }
+				   
+					}
+				   
+					//google.maps.event.addDomListener(window, "load", initialize);
+					function geocodeAddress(locations, i) {
+					  var img = locations[i][0];
+					  var address = locations[i][2];
+					  var name = locations[i][3];
+					  var des = locations[i][4];
+					  var url = locations[i][5];
+					  var icon = locations[i][6];
+					  geocoder.geocode({
+						  'address': locations[i][1]
+						},
+						function(results, status) {
+						  if (status == google.maps.GeocoderStatus.OK) {
+							var marker = new google.maps.Marker({
+							  icon: icon,
+							  map: map,
+							  position: results[0].geometry.location,
+							  img: img,
+							  animation: google.maps.Animation.DROP,
+							  address: address,
+							  url: url,
+							  name:name,
+							  des:des
+							})
+							infoWindow(marker, map, img, address, url, name, des);
+							//bounds.extend(marker.getPosition());
+							//map.fitBounds(bounds);
+						  } else {
+							alert("geocode of " + address + " failed:" + status);
+						  }
+						});
+				   
+					}
+					function infoWindow(marker, map, img, address, url, name, des) {
+					  google.maps.event.addListener(marker, 'click', function() {
+						var html = "<div style='width:290px;'><div style='border:1px solid #ccc; float:left; width:75px'>" + img + "</div><div style='border:0px solid red; float:right; width:205px'><p style='font-size:14px;color:red'>" + address + "</p><p style='font-weight:bold;'>" + name + "</p><p>" + des + "</p></div></div>";
+						iw = new google.maps.InfoWindow({
+						  content: html,
+						  maxWidth: 350
+						});
+						iw.open(map, marker);
+					  });
+					}
+				   //-->
+				</script>
+                
+            </div>
+            
+            <div class="footer_dtls_area">
+            	<div class="footer_text">
+                	<div class="row">
+                    	<div class="col-lg-3 col-md-12 col-sm-12">
+                        	<div class="footer_logo">
+                              <img src="images/footer_logo.png" style="max-width:100%"/>
+                          </div>
+                        </div>
+                        <div class="col-lg-9 col-md-12 col-sm-12">
+                        	<div class="row">
+                            <div class="col-lg-7 col-md-7">
+                            	<div class="row">
+                                	  <div class="col-xl-6">
+                                      <div class="footer_tab_dtls">
+                                          <h6>Wilt u Björn Kragt spreken?</h6>
+                                          <p>mobiel 06 53 86 80 27<br>
+                                             www.kragtautomotive.nl<br>
+                                             info@kragtautomotive.nl<br>
+                                          </p>
+                                      </div>
+                                  </div>
+                      			  	  <div class="col-xl-6">
+                                      <div class="footer_tab_dtls">
+                                          <h6>Kragt Automotive</h6>
+                                          <p>Dukaat 3B<br>
+                                             5751 PW<br>
+                                             Deurne<br>
+                                          </p>
+                                      </div>
+                                  </div>
+                                </div>
+                            </div>
+                            	
+                                  <div class="col-lg-5 col-md-5">
+                                    <div class="footer_tab_dtls">
+                                       <table>
+                                            <tr>
+                                                <td>Ma</td>
+                                                <td>09:00 - 18:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Di</td>
+                                                <td>09:00 - 18:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Wo</td>
+                                                <td>09:00 - 18:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Do</td>
+                                                <td>09:00 - 18:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Vr</td>
+                                                <td>09:00 - 18:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Za</td>
+                                                <td>10:00 - 14:00</td>
+                                            </tr>
+                                            <tr>
+                                                <td>Zo</td>
+                                                <td>Gesloten</td>
+                                            </tr>
+                                       </table>
+                                    </div>
+                                </div>
+                                  <div class="col-lg-12 col-md-12">
+                                    <div class="footer_bottom">
+                                    	<div class="footer_bottom_top">
+                                        	<div class="footer_bottom_top_link">
+                                            	<a href="#" class="link">Contact <span style="margin-left:20px;"><img src="images/bluelink_arrow.png"/></span></a>
+                                                <ul class="footer_social">
+                                                	<li><img src="images/ft_icn1.png"/></li>
+                                                    <li><img src="images/ft_icn2.png"/></li>
+                                                    <li><img src="images/ft_icn3.png"/></li>
+                                                    <li><img src="images/ft_icn4.png"/></li>
+                                                    <li><img src="images/ft_icn5.png"/></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="footer_bottom_btm">
+                                        	<ul>
+                                            	<li>Collectie</li>
+                                                <li>Zoekopdracht</li>
+                                                <li>Diensten</li>
+                                                <li>Over ons</li>
+                                                <li>Contact</li>
+                                            </ul>
+                                        </div>
+                                    </div>	
+                                  </div>
+                      			  <div class="clearfix"></div>
+                            </div>
+                        </div>
+                        <div class="clearfix"></div>
+                    </div>
+                	
+                    
+                </div>
+            </div>
+            <script>
+            $(window).on('load resize', function(){	
+               var total_heights= $(".footer_dtls_area").outerHeight();
+            	$(".google_map").css("height", total_heights + 116);
+				//$(".testimonial_sec").css("height", total_heights);
+            if ($(window).width() < 991) {
+               $(".google_map").css("height", '250');
+			   $(".footer_dtls_area").css("height", 'auto');
+            	}
+				
+            });
+        </script>
+        </section>
+      </body>
+</html>

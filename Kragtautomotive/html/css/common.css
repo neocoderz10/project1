@@ -1,0 +1,51 @@
+h1 {
+	font-family: 'Open Sans semi bold';
+	font-size: 72px;
+	color: #fff;
+}
+h2 {
+	font-family: 'Open Sans semi bold';
+	font-size: 36px;
+	color: #fff;
+}
+h3 {
+	font-family: 'Open Sans semi bold';
+	font-size: 30px;
+	color: #fff;
+}
+h6 {
+	font-family: 'Open Sans semi bold';
+	font-size: 16px;
+	color: #fff;
+}
+p {
+	font-family: 'Open Sanslight';
+	font-size: 16px;
+	color: #fff;
+	line-height: 30px;
+}
+.link {
+	font-family: 'Open Sans semi bold';
+	font-size: 16px !important;
+	color: #fff !important;
+	text-decoration: none !important;
+	margin-top: 60px;
+}
+.link:hover {
+	color: #628fbd
+}
+.inner_page_banner {
+	height: 420px;
+	display: table;
+	width: 100%; text-align:center;
+}
+.inner_page_content {
+	display: table-cell;
+	vertical-align: bottom;
+	padding-bottom: 100px;
+}
+.inner_page_content p{ font-size:24px;}
+.color_blk
+{
+color:#121212;
+}
